@@ -1,10 +1,10 @@
 import Lottie from "lottie-react";
 import boyWorking from "./assets/boy-working-on-laptop-lottie-animation.json";
-import Meet from './components/Meet'
+import Meet from './components/Meet/Meet'
 import Carousel from './components/Carousel/Carousel'
 import Overview from './components/Overview/Overview'
-import Test from './components/Test'
-import WorkWithUs from './components/WorkWithUs'
+import Test from './components/Test/Test'
+import WorkWithUs from './components/WorkWithUs/WorkWithUs'
 import './App.css'
 
 function App() {

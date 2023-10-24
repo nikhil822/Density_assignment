@@ -63,4 +63,69 @@
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+
+#carousel .card {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 200px;
+    margin-right: 25px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    scroll-snap-align: start;
+    border-radius: 15px;
+}
+
+#carousel .carousel::-webkit-scrollbar {
+    display: none;
+    height: 3px;
+    background-color: transparent;
+    background-color: white;
+}
+
+#carousel .carousel::-webkit-scrollbar-thumb{
+    background: rebeccapurple;
+    border-radius: 10px;
+}
+
+#carousel .carousel::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+#carousel p{
+    font-size: 17px;
+    line-height: 1.2;
+    opacity: 0.6;
+}
+
+#carousel h4 {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+#carousel .card h2 {
+    font-size: 35px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+#carousel .section2 .text-logo h1 {
+    position: relative;
+    left: 10px;
+    top: 40px;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: none;
+    font-weight: 1000;
+}
+
+#carousel .section2 .jelly-logo {
+    position: relative;
+    left: 0px;
+    top: 35px;
 }

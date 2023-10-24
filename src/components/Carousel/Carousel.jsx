@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import jellyAnimation from "../../assets/jelly-spin.json";
 import Card from "./Card";
-import {motion} from 'framer-motion'
+import { motion } from "framer-motion";
 import "./Carousel.css";
 
 const Carousel = () => {
@@ -98,7 +98,12 @@ const Carousel = () => {
           </span>
         </div>
         <div className="cardsContainer">
-          <motion.div className="carousel">
+          <motion.div
+            className="carousel"
+            initial={{ x: -200, opacity: 0.1 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+          >
             {cardsData.map((card, index) => (
               <Card
                 key={index}
