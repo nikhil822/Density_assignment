@@ -54,6 +54,7 @@
 }
 
 #carousel .text-logo {
+    margin-left: 50px;
     display: flex;
     justify-content: flex-start;
 }

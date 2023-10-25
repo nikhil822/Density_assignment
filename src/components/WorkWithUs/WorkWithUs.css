@@ -22,6 +22,9 @@
 }
 
 #workwithus .containerItem .right {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     margin-right: 50px;
     margin-top: 30px;
 }
@@ -58,15 +61,13 @@
     font-weight: bold;
 }
 
-/* #workwithus .ahead {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-} */
+#workwithus .ahead {
+    right: 2px;
+}
 
 #workwithus .ahead h2 {
     color: #6441ef;
-    margin-right: 80px;
+    /* margin-right: 80px; */
     font-size: 55px;
     font-weight: bold;
 }

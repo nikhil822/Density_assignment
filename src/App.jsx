@@ -29,22 +29,22 @@ function App() {
         </div>
         <ul className="list">
           <li>
-            <a href="#hero" onClick={(event) => scrollToSection("hero", event)}>
+            <a href="#overview" onClick={(event) => scrollToSection("overview", event)}>
               Emotions
             </a>
           </li>
           <li>
             <a
-              href="#manifesto"
-              onClick={(event) => scrollToSection("manifesto", event)}
+              href="#timeline"
+              onClick={(event) => scrollToSection("timeline", event)}
             >
               Manifesto
             </a>
           </li>
           <li>
             <a
-              href="#aware"
-              onClick={(event) => scrollToSection("aware", event)}
+              href="#test"
+              onClick={(event) => scrollToSection("test", event)}
             >
               Self-awareness test
             </a>
