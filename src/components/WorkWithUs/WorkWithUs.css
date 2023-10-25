@@ -1,1 +1,149 @@
-#workwithus
+#workwithus .container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#workwithus .containerItem {
+    background-color: #eeecfd;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    height: 82%;
+    border-radius: 30px;
+    margin-top: 65px;
+}
+
+#workwithus .containerItem .left {
+    margin-top: 30px;
+}
+
+#workwithus .containerItem .right {
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+#workwithus .box {
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-left: 40px;
+    width: 450px;
+    min-height: 360px;
+    position: relative;
+    bottom: 10px;
+}
+
+#workwithus .box-one {
+    margin-bottom: 30px;
+}
+
+#workwithus #about:hover {
+    background-color: rgb(249, 237, 214);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#workwithus #product:hover {
+    background-color: rgb(249, 237, 214);
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+#workwithus .left h2 {
+    margin-left: 50px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+/* #workwithus .ahead {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+} */
+
+#workwithus .ahead h2 {
+    color: #6441ef;
+    margin-right: 80px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#workwithus h5 {
+    line-height: 1.2;
+    word-spacing: 2px;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+#workwithus #about h4 {
+    line-height: 1.3;
+}
+
+#workwithus #product h4 {
+    line-height: 1.3;
+}
+
+#workwithus .box .work-carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    width: 450px;
+    height: 430px;
+    scroll-snap-type: y mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+#workwithus .work-cards {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 205px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    scroll-snap-align: start;
+    border-radius: 15px;
+}
+
+#workwithus .right .box {
+    background-color: #eeecfd;
+}
+
+#workwithus .left .box {
+    padding: 25px;
+    padding-top: 0;
+    max-width: 400px;
+}
+
+#workwithus .right .box .work-cards h4 {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+#workwithus .right .box .work-cards p {
+    font-size: 16px;
+    line-height: 1.4;
+    opacity: 0.6;
+}
+
+#workwithus ::-webkit-scrollbar {
+    
+    height: 4px;
+	width: 5px;
+	background-color: #ffffff;
+    border-radius: 20px;
+}
+#workwithus ::-webkit-scrollbar-thumb {
+    background-color: #b1a3f8;
+    border-radius: 20px;
+}
+#workwithus #olympics-swimming{
+    position: relative;
+    left: 40px;
+    top: 150px;
+}

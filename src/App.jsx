@@ -5,7 +5,10 @@ import Carousel from './components/Carousel/Carousel'
 import Overview from './components/Overview/Overview'
 import Test from './components/Test/Test'
 import WorkWithUs from './components/WorkWithUs/WorkWithUs'
+import Vacancy from "./components/Vacancy/Vacancy";
 import './App.css'
+import Footer from "./components/Footer/Footer";
+import Timeline from "./components/Timeline/Timeline";
 
 function App() {
   const scrollToSection = (sectionId, event) => {
@@ -21,6 +24,7 @@ function App() {
           <Lottie
             style={{ width: "120px", height: "120px", marginLeft: "45px" }}
             animationData={boyWorking}
+            loop={false}
           />
         </div>
         <ul className="list">
@@ -70,11 +74,21 @@ function App() {
         <section id="meet" className="section">
           <Meet />
         </section>
+        <section id="timeline" className="section">
+          <Timeline />
+        </section>
         <section id="test" className="section">
           <Test />
         </section>
         <section id="workwithus" className="section">
           <WorkWithUs />
+        </section>
+        <section id="vacancy" className="section">
+          <Vacancy />
+        </section>
+        <hr></hr>
+        <section id="footer" className="section">
+          <Footer />
         </section>
       </div>
     </>
